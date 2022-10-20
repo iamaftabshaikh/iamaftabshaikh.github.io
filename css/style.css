@@ -1,0 +1,44 @@
+/* .bg-primary{
+    background: #373e98 ;
+} */
+
+.bg-primary{
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #216ea1, #e0c291);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #286f9e, #bea47a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.aftab-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+}
+
+.button-color{
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a5d2f0, #e0c291);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9abcd3, #bea47a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pl-icons {
+    font-size: 80px !important;
+    color: #6c7d88
+}
+
+.services-container {
+    border: .5px solid #6c7d88 ;
+    padding: 20px;
+    cursor:cell ;
+    transition: 200ms all ease-in-out;
+}
+
+.pl-color {
+    color: #6c7d88 ;
+}
+
+.services-container:hover {
+    background: -webkit-linear-gradient(to right, #a5d2f0, #e0c291);
+    background: linear-gradient(to right, #9abcd3, #bea47a);
+    color: #ffffff;
+    border-radius: 30px;
+}
