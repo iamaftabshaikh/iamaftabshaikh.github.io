@@ -42,3 +42,15 @@
     color: #ffffff;
     border-radius: 30px;
 }
+
+@media screen and (max-width: 390px) {
+    .cc-logo-text {
+        font-size: 21px !important; 
+    }
+}
+/* @media screen and (max-width: 520px) {
+    .cc-logo-text {
+        font-size: 27px !important; 
+    }
+} */
+
